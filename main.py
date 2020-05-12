@@ -30,6 +30,7 @@ def fastft(a):
     return y, z
 
 
+
 # 搭建BP网络
 net1 = nn.Sequential(
     nn.Linear(7, 50),
