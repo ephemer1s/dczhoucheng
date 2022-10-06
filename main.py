@@ -71,6 +71,9 @@ net = nn.Sequential(
 )
 print(net)
 
+print("Using CUDA")
+print(torch.cuda.is_available())
+
 # 初始化网络参数
 batch_size = 64
 learning_rate = 0.02
